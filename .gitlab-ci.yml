@@ -1,0 +1,24 @@
+variables:
+  DEPLOY_DIR: 'C:\Knowledge Base'
+
+deploy:
+  stage: deploy
+  tags: [npm]
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "dev"'
+  script:
+    - npm ci # Install dependencies for CI/CD pipelines
+    - npm run build # Prepare app for production
+    - | # Check whether pm2 installs correctly
+      if (-not (Get-Command pm2 -ErrorAction SilentlyContinue)) {
+        npm install -g pm2
+      }
+      if (-not (Get-Command pm2 -ErrorAction SilentlyContinue)) {
+        Write-Error "pm2 is not recognized after installation. Aborting deployment."
+        exit 1
+      }
+    - pm2 delete knowledge-base 2>$null; $true # Close previous instance of app
+    - New-Item -ItemType Directory -Force -Path $env:DEPLOY_DIR # Create directory
+    - Copy-Item -Path .\* -Destination $env:DEPLOY_DIR -Recurse -Force # Copy files
+    - Set-Location $env:DEPLOY_DIR
+    - pm2 start ecosystem.config.js --no-autorestart *>$null # Deploy app
