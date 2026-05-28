@@ -1,0 +1,37 @@
+1:"$Sreact.fragment"
+2:I[53700,["/knowledge-base/_next/static/chunks/01xlw8hd842-c.js","/knowledge-base/_next/static/chunks/0d3shmwh5_nmn.js","/knowledge-base/_next/static/chunks/02ia654tqy_~3.js"],"LessonView"]
+4:I[97367,["/knowledge-base/_next/static/chunks/01xlw8hd842-c.js","/knowledge-base/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T4d7,<h1>Tips</h1>
+<p>Make the most of your time at [Organization].</p>
+<h2>Clarify expectations</h2>
+<ul>
+<li>Regularly check-in with supervisors</li>
+<li>Frequently share progress and ask for guidance</li>
+<li>Confirm priorities and deadlines of tasks</li>
+</ul>
+<h2>Learn through mistakes</h2>
+<ul>
+<li>Be transparent about your knowledge</li>
+<li>Be comfortable not knowing everything</li>
+<li>Ask questions during meetings</li>
+</ul>
+<h2>Build connections</h2>
+<ul>
+<li>Get familiar with your team</li>
+<li>Observe behaviours of others</li>
+</ul>
+<h2>Take initiative</h2>
+<ul>
+<li><a href="https://docs.google.com/document/d/1YKDH-7ricvj6hZXpt3_Feg5SQw-nTYXy" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: underline;">Find a problem</a></li>
+<li><a href="https://docs.google.com/document/d/1I0UCc9zJGJLjmuciDhcvYKkLLsIPzPt2vM_BEiIzsD8" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: underline;">Solve it</a></li>
+<li>Don&#39;t wait for instructions</li>
+</ul>
+<h2>See the bigger picture</h2>
+<ul>
+<li>Understand how your work benefits [Organization]</li>
+<li>Know what problem you are solving</li>
+<li>Learn the start-to-finish development for your product</li>
+</ul>
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"chapter":{"slug":"welcome","title":"Welcome","image":"welcome.png","author":"Daniel Kim","lessons":[{"slug":"introduction","title":"Introduction","file":"introduction"},{"slug":"tips","title":"Tips","file":"tips"},{"slug":"resources","title":"Resources","file":"resources"}]},"lesson":"$0:rsc:props:children:0:props:chapter:lessons:1","content":"$3","prevLesson":"$0:rsc:props:children:0:props:chapter:lessons:0","nextLesson":"$0:rsc:props:children:0:props:chapter:lessons:2"}],[["$","script","script-0",{"src":"/knowledge-base/_next/static/chunks/02ia654tqy_~3.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"7fniZheIjGGYdpq3LERte"}
+6:null

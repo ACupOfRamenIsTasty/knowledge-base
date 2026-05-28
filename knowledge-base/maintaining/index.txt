@@ -1,0 +1,95 @@
+1:"$Sreact.fragment"
+2:I[39756,["/knowledge-base/_next/static/chunks/01xlw8hd842-c.js","/knowledge-base/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+3:I[37457,["/knowledge-base/_next/static/chunks/01xlw8hd842-c.js","/knowledge-base/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+5:I[97367,["/knowledge-base/_next/static/chunks/01xlw8hd842-c.js","/knowledge-base/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+9:I[97367,["/knowledge-base/_next/static/chunks/01xlw8hd842-c.js","/knowledge-base/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+b:I[97367,["/knowledge-base/_next/static/chunks/01xlw8hd842-c.js","/knowledge-base/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+d:I[68027,["/knowledge-base/_next/static/chunks/01xlw8hd842-c.js","/knowledge-base/_next/static/chunks/0d3shmwh5_nmn.js"],"default",1]
+:HL["/knowledge-base/_next/static/chunks/04l2ljcabd~el.css","style"]
+:HC["/",""]
+0:{"P":null,"c":["","knowledge-base","maintaining",""],"q":"","i":false,"f":[[["",{"children":[["chapterSlug","knowledge-base","d",null],{"children":[["lessonSlug","maintaining","d",null],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/knowledge-base/_next/static/chunks/04l2ljcabd~el.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/knowledge-base/_next/static/chunks/01xlw8hd842-c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/knowledge-base/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"open_sans_6b166779-module__jbnj_a__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","script","script-0",{"src":"/knowledge-base/_next/static/chunks/02ia654tqy_~3.js","async":true,"nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,"$@8"]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[["$","link","0",{"rel":"stylesheet","href":"/knowledge-base/_next/static/chunks/04l2ljcabd~el.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"7fniZheIjGGYdpq3LERte"}
+e:[]
+8:"$We"
+f:I[53700,["/knowledge-base/_next/static/chunks/01xlw8hd842-c.js","/knowledge-base/_next/static/chunks/0d3shmwh5_nmn.js","/knowledge-base/_next/static/chunks/02ia654tqy_~3.js"],"LessonView"]
+10:Tfcd,<h1>Maintaining the Knowledge Base</h1>
+<h2>How It Works</h2>
+<ul>
+<li>Users and Developers collaborate to keep content current</li>
+<li>Users prepare markdown (<code>.md</code>) files — one file per lesson</li>
+<li>Devs integrate those files into the app</li>
+<li>Everyone sees the published knowledge</li>
+</ul>
+<h2>Best Practices</h2>
+<ul>
+<li>Use bullet points and step-by-step instructions</li>
+<li>Connect content to everyday tasks where possible</li>
+<li>Keep writing simple, concise, and adaptable to changing workflows</li>
+</ul>
+<p><strong>If you write for hours about a tool that soon becomes obsolete, you&#39;re not getting those hours back.</strong></p>
+<h2>Adding Content via Markdown (Users)</h2>
+<p><strong>Assume that users are not tech-savvy.</strong></p>
+<h3>Write content using <a href="https://write-box.appspot.com/" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: underline;">Write-Box</a></h3>
+<img src="/knowledge-base/writebox.png" style="margin: 16px 0; border-radius: 8px; border-width: 1px; border-color: black" />
+
+<h3>Prompt the AI to convert your text to markdown format</h3>
+<img src="/knowledge-base/copy-prompt.png" style="margin: 16px 0; border-radius: 8px; border-width: 1px; border-color: black" />
+
+<p><strong>Copy paste this prompt along with your raw text:</strong></p>
+<pre><code>Convert the following text into a markdown file. Follow these rules:
+
+- Use one H1 heading (#) for the title at the top of the file. Use ## and ### for all subsequent headings
+- Always use bullet points instead of paragraphs to keep content concise
+- For any links, use the format [text](url)
+- Keep everything brief and scannable — avoid unnecessary words
+- Use the following as a format reference:
+
+# Introduction
+
+## What is the Knowledge Base?
+- The single source of truth for all knowledge
+- Helps manage scattered documents across teams
+
+## Objective
+- Have all staff update the app&#39;s content periodically and before leaving
+- With each iteration, the app covers more material and remains up-to-date
+</code></pre>
+<img src="/knowledge-base/prompting.png" style="margin: 16px 0; border-radius: 8px; border-width: 1px; border-color: black" />
+<img src="/knowledge-base/copy-markdown.png" style="margin: 16px 0; border-radius: 8px; border-width: 1px; border-color: black" />
+
+<h3>Share the formatted text and any images with Devs</h3>
+<img src="/knowledge-base/send-to-dev.png" style="margin: 16px 0; border-radius: 8px; border-width: 1px; border-color: black" />
+
+<h3>Devs create files and upload images</h3>
+<img src="/knowledge-base/create-file.png" style="margin: 16px 0; border-radius: 8px; border-width: 1px; border-color: black" />
+<img src="/knowledge-base/upload-images.png" style="margin: 16px 0; border-radius: 8px; border-width: 1px; border-color: black" />
+
+<h3>Everyone sees the lesson</h3>
+<img src="/knowledge-base/public-lesson.png" style="margin: 16px 0; border-radius: 8px; border-width: 1px; border-color: black" />
+
+<h2>When to Use Markdown</h2>
+<p>Use markdown when:</p>
+<ul>
+<li>The topic requires quick, basic knowledge for various team members</li>
+<li>The workflow changes frequently and needs regular updates</li>
+<li>The content should be accessible to all staff</li>
+</ul>
+<p>Otherwise:</p>
+<ul>
+<li>Don&#39;t bother with writebox and AI prompting</li>
+<li>Prepare a Word document and give it to Devs</li>
+</ul>
+<h2>Maintaining the Repo (Devs)</h2>
+<ul>
+<li>See <code>README.md</code> for more info</li>
+<li>Maintain the same folder structure across <code>content/</code> and <code>public/</code></li>
+<li>Insert markdown files in <code>content/</code></li>
+<li>Insert images in <code>public/</code></li>
+<li>Merge to <code>dev</code> branch and wait for pipeline to finish to see changes</li>
+</ul>
+<img src="/knowledge-base/content.png" style="margin: 16px 0; border-radius: 8px; border-width: 1px; border-color: black" />
+<img src="/knowledge-base/public.png" style="margin: 16px 0; border-radius: 8px; border-width: 1px; border-color: black" />4:["$","$Lf",null,{"chapter":{"slug":"knowledge-base","title":"Knowledge Base","image":"knowledge-base.png","author":"Daniel Kim","lessons":[{"slug":"introduction","title":"Introduction","file":"introduction"},{"slug":"maintaining","title":"Maintaining","file":"maintaining"}]},"lesson":"$4:props:chapter:lessons:1","content":"$10","prevLesson":"$4:props:chapter:lessons:0","nextLesson":null}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:I[27201,["/knowledge-base/_next/static/chunks/01xlw8hd842-c.js","/knowledge-base/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
+7:null
+c:[["$","title","0",{"children":"Knowledge Base"}],["$","meta","1",{"name":"description","content":"The single source of truth for all knowledge for your organization. Please add what you learned before you leave."}],["$","link","2",{"rel":"icon","href":"/knowledge-base/favicon.ico?favicon.0mn4-ue6l1yjm.ico","sizes":"32x32","type":"image/x-icon"}],["$","$L11","3",{}]]
