@@ -17,8 +17,27 @@ renderer.link = function ({ href, title, text }) {
 
 // Convert all curly braces in markdown to images under `public/`
 function replaceImagePlaceholders(markdown: string): string {
-  return markdown.replace(/\{([^}]+)\}/g, (_, imageName) => {
-    return `<img src="/${imageName}" style="margin: 16px 0; border-radius: 8px; border-width: 1px; border-color: black" />`
+  return markdown.replace(/\{([^}]+)\}/g, (_, rawImageName) => {
+    const imageName = rawImageName.trim()
+
+    // If the placeholder already contains an absolute URL, leave it as-is
+    if (/^(https?:)?\/\//i.test(imageName)) {
+      return `<img src="${imageName}" style="margin: 16px 0; border-radius: 8px; border-width: 1px; border-color: black" />`
+    }
+
+    // Encode the path parts to be URL-safe
+    const encoded = encodeURI(imageName.replace(/^\//, ""))
+
+    // Primary path (works for local dev when images are served from `/public`)
+    const primary = `/${encoded}`
+
+    // Fallback for GitHub Pages where the repo name may appear twice in the path
+    // e.g. /knowledge-base/knowledge-base/...
+    const ghPagesFallback = `/knowledge-base/${encoded}`
+
+    // Render an image that tries the primary src, then falls back to the gh-pages path
+    // The `onerror` handler swaps the `src` if the first request fails.
+    return `<img src="${primary}" onerror="this.onerror=null;this.src='${ghPagesFallback}'" style="margin: 16px 0; border-radius: 8px; border-width: 1px; border-color: black" />`
   })
 }
 
