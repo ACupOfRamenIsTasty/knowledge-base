@@ -2,13 +2,13 @@
 2:I[53700,["/knowledge-base/_next/static/chunks/01xlw8hd842-c.js","/knowledge-base/_next/static/chunks/0d3shmwh5_nmn.js","/knowledge-base/_next/static/chunks/02ia654tqy_~3.js"],"LessonView"]
 4:I[97367,["/knowledge-base/_next/static/chunks/01xlw8hd842-c.js","/knowledge-base/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
 5:"$Sreact.suspense"
-3:T5ba,<h1>Welcome to [Organization]!</h1>
+3:T60a,<h1>Welcome to [Organization]!</h1>
 <p>We&#39;re excited to have you join the team. This page is your starting point for getting settled in.</p>
 <h2>About [Organization]</h2>
 <ul>
 <li>Enter info...</li>
 </ul>
-<img src="/welcome/headquarters.png" style="margin: 16px 0; border-radius: 8px; border-width: 1px; border-color: black" />
+<img src="/welcome/headquarters.png" onerror="this.onerror=null;this.src='/knowledge-base/welcome/headquarters.png'" style="margin: 16px 0; border-radius: 8px; border-width: 1px; border-color: black" />
 
 <h2>Start Your Journey</h2>
 <ul>
@@ -40,5 +40,5 @@
 <ul>
 <li>Broken links, missing info, and stale content should be <strong>reported immediately</strong> to keep this guide accurate and useful for future hires.</li>
 </ul>
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"chapter":{"slug":"welcome","title":"Welcome","image":"welcome.png","author":"Daniel Kim","lessons":[{"slug":"introduction","title":"Introduction","file":"introduction"},{"slug":"tips","title":"Tips","file":"tips"},{"slug":"resources","title":"Resources","file":"resources"}]},"lesson":"$0:rsc:props:children:0:props:chapter:lessons:0","content":"$3","prevLesson":null,"nextLesson":"$0:rsc:props:children:0:props:chapter:lessons:1"}],[["$","script","script-0",{"src":"/knowledge-base/_next/static/chunks/02ia654tqy_~3.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"7fniZheIjGGYdpq3LERte"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"chapter":{"slug":"welcome","title":"Welcome","image":"welcome.png","author":"Daniel Kim","lessons":[{"slug":"introduction","title":"Introduction","file":"introduction"},{"slug":"tips","title":"Tips","file":"tips"},{"slug":"resources","title":"Resources","file":"resources"}]},"lesson":"$0:rsc:props:children:0:props:chapter:lessons:0","content":"$3","prevLesson":null,"nextLesson":"$0:rsc:props:children:0:props:chapter:lessons:1"}],[["$","script","script-0",{"src":"/knowledge-base/_next/static/chunks/02ia654tqy_~3.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"JH5Btc2QDvNcK6ekFqpHF"}
 6:null
