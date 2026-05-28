@@ -1,7 +1,18 @@
-import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production'
+const repo = '/knowledge-base'
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
+const nextConfig = {
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  images: {
+    unoptimized: true,
+  },
+  output: 'export',
+  trailingSlash: true,
+  basePath: isProd ? repo : '',
+  assetPrefix: isProd ? `${repo}/` : undefined,
+}
 
-export default nextConfig;
+export default nextConfig

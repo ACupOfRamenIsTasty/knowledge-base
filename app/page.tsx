@@ -1,10 +1,9 @@
 import { MainMenu } from "@/components/main-menu"
 
 interface PageProps {
-  searchParams: Promise<{ topicName?: string }>
+  searchParams: { topicName?: string }
 }
 
-export default async function HomePage({ searchParams }: PageProps) {
-  const params = await searchParams
-  return <MainMenu topicName={params.topicName} />
+export default function HomePage({ searchParams }: PageProps) {
+  return <MainMenu topicName={searchParams.topicName} />
 }
